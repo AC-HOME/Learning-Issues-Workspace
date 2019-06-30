@@ -25,8 +25,12 @@ Alibaba Cloud Toolkit 对 IntelliJ IDEA ，Eclipse ，Maven ，PyCharm、PhpStor
 
 ![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/15.png)
 
-- 第 3 步： 配置连接信息，部署至 Linux ，查看日志
+- 第 3 步： 添加主机，配置连接信息，部署至 Linux ，查看日志
+
+![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/14.png)
+
 ![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/13.png)
+
 ![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/12.png)
 
 ![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/11.png)
@@ -54,8 +58,6 @@ nohup java -jar /usr/loacl/docker/alibaba-cloud-toolkit-sample-1.0.0-SNAPSHOT.ja
 java -jar alibaba-cloud-toolkit-sample-1.0.0-SNAPSHOT.jar > log.out  2>&1
 ```
 ## 部署参数说明
-![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/14.png)
-
 - Deploy File：部署文件包含两种方式。
 ```html
 Maven Build：如果当前工程采用 Maven 构建，可以使用 Cloud Toolkit 直接构建并部署。
