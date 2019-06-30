@@ -1,4 +1,6 @@
 # Alibaba Cloud Toolkit
+更新时间：2019-06-30 23:07:02
+
 [toc]
 ## 简介
 Cloud Toolkit 是针对 IDE 平台为开发者提供的一款插件，帮助开发者更高效地开发、测试、诊断并部署应用。通过插件，可以将本地应用一键部署到云端（ECS、EDAS、容器服务 Kubernetes 等）和任意服务器；并且它还内嵌了 Arthas 程序诊断、 Terminal Shell 终端和 MySQL 执行器等工具。
