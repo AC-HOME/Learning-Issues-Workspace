@@ -17,13 +17,31 @@ Alibaba Cloud Toolkit 对 IntelliJ IDEA ，Eclipse ，Maven ，PyCharm、PhpStor
 - 第 2 步：进入 Plugins 选项，搜索“Alibaba Cloud Toolkit”，并安装即可
 - 第 3 步：插件安装成功后，重启 Intellij，工具栏显示 Alibaba Cloud Toolkit 的图标
 
+![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/16.png)
 
 ## 在 IntelliJ IDEA 中部署 Spring Boot / Spring Cloud 应用到服务器
 - 第 1 步： 创建案例， Demo 目录 
 - 第 2 步： 开启虚拟机
+
+![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/15.png)
+
 - 第 3 步： 配置连接信息，部署至 Linux ，查看日志
+![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/13.png)
+![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/12.png)
+
+![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/11.png)
+
+![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/10.png)
+
+![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/09.png)
+
 - 第 4 步： 访问 http://192.168.129.128:8081/hello
+
+![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/08.png)
 - 第 5 步： killall java 停止 spring boot 应用
+
+![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/07.png)
+
 
 脚本方式实现，/usr/local/docker 目录下编写 restart.sh 脚本，修改连接信息，Command 配置 sh /usr/local/docker/restart.sh 即可实现 spring boot 程序的重启
 脚本如下：
@@ -36,6 +54,8 @@ nohup java -jar /usr/loacl/docker/alibaba-cloud-toolkit-sample-1.0.0-SNAPSHOT.ja
 java -jar alibaba-cloud-toolkit-sample-1.0.0-SNAPSHOT.jar > log.out  2>&1
 ```
 ## 部署参数说明
+![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/14.png)
+
 - Deploy File：部署文件包含两种方式。
 ```html
 Maven Build：如果当前工程采用 Maven 构建，可以使用 Cloud Toolkit 直接构建并部署。
@@ -65,12 +85,19 @@ java -jar alibaba-cloud-toolkit-sample-1.0.0-SNAPSHOT.jar > log.out  2>&1
 ```
 - 第 3 步： Command 配置： sh restart_with_backup.sh
 
+![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/06.png)
+
+![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/05.png)
+
+![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/04.png)
 ## 登陆远程服务器终端 Terminal
 功能同 Xshell ，但比 Xshell 方便
 
 ## Arthas 远程诊断
 文档：https://alibaba.github.io/arthas/quick-start.html
+![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/03.png)
 
 ![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/01.png)
 
+![image](https://github.com/AC-HOME/Learning-Issues-Workspace/blob/master/IDEA%20%E7%B3%BB%E5%88%97/alibaba%20cloud%20toolkit/%E5%9B%BE%E5%BA%93/02.png)
 ## PelicanDT 分布式应用测试工具
